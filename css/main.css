@@ -78,7 +78,7 @@
 }
 
 #contact {
-  height: 90vh;
+  height: 92vh;
 }
 
 @media (max-width: 720px) {
@@ -156,6 +156,20 @@ div.img-box {
   padding-right: 3rem;
 }
 
+#contact p {
+  font-size: 1.5rem;
+}
+#contact div.contact {
+  padding-top: 7rem;
+}
+
+footer {
+  height: 8vh;
+  background-color: #f7484d;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
 @media (max-width: 900px) {
   .container-box {
     padding-left: 0;
@@ -167,29 +181,8 @@ div.img-box {
   #contact {
     height: auto;
   }
-}
 
-#contact p {
-  font-size: 1.5rem;
+  footer div {
+    font-size: 1rem;
+  }
 }
-#contact div.contact {
-  padding-top: 7rem;
-}
-
-footer {
-  height: 10vh;
-  background-color: #f7484d;
-  color: #fff;
-  font-size: 1.5rem;
-}
-
-footer h3 {
-  margin: 0;
-  padding: 0;
-}
-
-.bold {
-  font-weight: 550;
-}
-
-li

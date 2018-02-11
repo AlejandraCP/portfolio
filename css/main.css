@@ -78,7 +78,7 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Dosis', sans-serif; */
 
-#about, #first, #skills {
+#about, #first{
   height: 100vh;
   position: relative;
 }
@@ -111,6 +111,21 @@ font-family: 'Dosis', sans-serif; */
   background-color: transparent;
 }
 
-.color-we {
-  color: #F7484D;
+.uppercase {
+  text-transform: uppercase;
+}
+
+div.progress {
+  background-color: rgb(230, 136, 139);
+  height: 0.5rem;
+  margin-top: 0;
+}
+
+div.progress .determinate {
+  background-color: #F7484D;
+}
+
+.row.pad{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }

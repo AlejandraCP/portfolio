@@ -9,7 +9,6 @@
   color: #F7484D;
 }
 
-
 .first-box {
   background-image: url('../assets/images/portfolio-img.jpg');
   background-position: center;
@@ -84,13 +83,13 @@ font-family: 'Dosis', sans-serif; */
 }
 
 
-#about, #skills {
+#about, #skills, #portfolio, #contact {
   font-family: 'Dosis', sans-serif;
 }
 
 #skills {
   background-color: #292929;
-  padding-top: 0.101rem;
+  padding-top: 2.4rem;
 }
 /* .aboutme-box {
   padding-left: 5rem;
@@ -126,6 +125,49 @@ div.progress .determinate {
 }
 
 .row.pad{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
+
+.project-size {
+  font-size: 2rem;
+}
+
+.project-btn {
+  border: 1px solid #F7484D;
+  background-color: #FFF;
+  color: #F7484D;
+}
+
+a.project-btn:hover {
+  background-color: #F7484D;
+  color: #Fff;
+}
+
+div.img-box {
+  padding: 1rem 3rem !important;
+} 
+
+.project-about {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.text-size {
+  font-size: 1.15rem;
+}
+
+.container-box {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+
+@media (max-width: 900px) {
+  .container-box {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+} 
+

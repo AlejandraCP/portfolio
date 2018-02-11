@@ -9,6 +9,7 @@
   color: #F7484D;
 }
 
+
 .first-box {
   background-image: url('../assets/images/portfolio-img.jpg');
   background-position: center;
@@ -58,7 +59,7 @@
     transform: translateY(-40%);
     top: 40%;
     margin-left: 10%;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
 } 
@@ -77,15 +78,20 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Dosis', sans-serif; */
 
-#about, #first {
+#about, #first, #skills {
   height: 100vh;
   position: relative;
 }
 
-#about {
+
+#about, #skills {
   font-family: 'Dosis', sans-serif;
 }
 
+#skills {
+  background-color: #292929;
+  padding-top: 0.101rem;
+}
 /* .aboutme-box {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -103,4 +109,8 @@ font-family: 'Dosis', sans-serif; */
 
 .transparent {
   background-color: transparent;
+}
+
+.color-we {
+  color: #F7484D;
 }

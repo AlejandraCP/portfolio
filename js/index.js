@@ -7,7 +7,7 @@ const fixedNav = $(".navbar-fixed");
 let lastScroll = 0;
 $(window).scroll(e => {
   const currScroll = $(window).scrollTop();
-  if (currScroll > lastScroll && currScroll > 200) {
+  if (currScroll > lastScroll && currScroll > 100) {
     fixedNav.css("top", "-100px");
     fixedNav.css("transition", "top 0.3s");
   } else {

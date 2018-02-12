@@ -40,14 +40,14 @@
 
 .name {
   font-family: "Kaushan Script", cursive;
-  font-size: 2rem;
+  font-size: 4rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  color: #f7484d;
+  color: #faf6f6ea;
   letter-spacing: 0.1em;
   font-weight: 800;
-  text-shadow: 1px -1px 0 #dfdfdf8e, -1px 2px 1px #e2dddd73,
-    -2px 4px 1px #dfd9d94d, -3px 6px 1px #e2dede28;
+  text-shadow: 1px -1px 0 #9490908e, -1px 2px 1px #47464673,
+    -2px 4px 1px #1616164d, -3px 6px 1px #0f0f0f28;
 }
 
 .position3 {
@@ -85,6 +85,37 @@
   #about {
     height: auto;
   }
+  .position1 {
+  transform: translateY(-50%);
+  top: 20%;
+  margin-left: 10%;
+  font-size: 2.5rem;
+}
+
+.position2 {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 37%;
+  margin-left: 10%;
+}
+
+.position2 span:first-child {
+  font-size: 3rem;
+}
+
+.position3 {
+  transform: translateY(-40%);
+  top: 47%;
+  margin-left: 10%;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.name {
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+}
+
 }
 
 #about,

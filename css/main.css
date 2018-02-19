@@ -5,18 +5,20 @@
   margin-right: 1rem;
 }
 
+.title-logo {
+  margin: auto 1rem;
+}
+
 .letter-red {
   color: #f7484d;
 }
 
+.letter-red-light {
+  color: #f08286;
+  font-weight: 600;
+}
 .first-box {
-  background-image: url("../assets/images/portfolio-img.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: "Dosis", sans-serif;
-  color: #fff;
+  background: #00000075;
 }
 
 .position1 {
@@ -216,4 +218,22 @@ footer {
   footer div {
     font-size: 1rem;
   }
+}
+
+.transparence {
+  background-image: url("../assets/images/portfolio-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Dosis", sans-serif;
+  color: #fff;
+}
+
+.padd-title {
+  margin: 2.5rem;
+}
+
+.bold-par {
+  font-weight: 600;
 }

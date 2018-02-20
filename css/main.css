@@ -1,12 +1,13 @@
 .titles {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  /* font-weight: 200; */
   margin-right: 1rem;
 }
 
 .title-logo {
-  margin: auto 1rem;
+  margin: auto 3rem;
+  font-weight: 200;
 }
 
 .letter-red {
@@ -24,7 +25,7 @@
 .position1 {
   position: absolute;
   transform: translateY(-50%);
-  top: 25%;
+  top: 20%;
   margin-left: 10%;
   font-size: 2.5rem;
 }
@@ -41,8 +42,8 @@
 }
 
 .name {
-  font-family: "Kaushan Script", cursive;
-  font-size: 4rem;
+  /* font-family: "Kaushan Script", cursive; */
+  font-size: 5rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   color: #faf6f6ea;
@@ -55,13 +56,17 @@
 .position3 {
   position: absolute;
   transform: translateY(-40%);
-  top: 40%;
+  top: 50%;
   margin-left: 10%;
   font-size: 2rem;
   font-weight: 800;
   text-transform: uppercase;
 }
 
+.photo {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
 .container .row {
   margin: 0;
 }
@@ -128,8 +133,17 @@
 }
 
 #skills,
+#portfolio {
+  padding-bottom: 3.5rem;
+}
+
+#skills,
 #contact {
   background-color: #292929;
+  /* padding-top: 2.4rem; */
+}
+
+#contact {
   padding-top: 2.4rem;
 }
 
@@ -221,7 +235,7 @@ footer {
 }
 
 .transparence {
-  background-image: url("../assets/images/portfolio-img.jpg");
+  background-image: url("../assets/images/portt.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -231,7 +245,7 @@ footer {
 }
 
 .padd-title {
-  margin: 2.5rem;
+  margin: 3.5rem;
 }
 
 .bold-par {

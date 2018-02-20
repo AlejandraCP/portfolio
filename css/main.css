@@ -93,36 +93,35 @@
     height: auto;
   }
   .position1 {
-  transform: translateY(-50%);
-  top: 20%;
-  margin-left: 10%;
-  font-size: 2.5rem;
-}
+    transform: translateY(-50%);
+    top: 20%;
+    margin-left: 10%;
+    font-size: 2.5rem;
+  }
 
-.position2 {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 37%;
-  margin-left: 10%;
-}
+  .position2 {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 37%;
+    margin-left: 10%;
+  }
 
-.position2 span:first-child {
-  font-size: 3rem;
-}
+  .position2 span:first-child {
+    font-size: 3rem;
+  }
 
-.position3 {
-  transform: translateY(-40%);
-  top: 47%;
-  margin-left: 10%;
-  font-size: 2rem;
-  font-weight: 800;
-}
-.name {
-  font-size: 3rem;
-  letter-spacing: 0.1em;
-  font-weight: 800;
-}
-
+  .position3 {
+    transform: translateY(-40%);
+    top: 47%;
+    margin-left: 10%;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .name {
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+  }
 }
 
 #about,
@@ -187,6 +186,10 @@ a.project-btn:hover {
 
 div.img-box {
   padding: 1rem 3rem !important;
+}
+
+nav .button-collapse {
+  margin: 0;
 }
 
 .project-about {

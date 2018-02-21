@@ -1,7 +1,7 @@
 .titles {
   font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
-  /* font-weight: 200; */
+  font-size: 1.6rem;
+  font-weight: 300;
   margin-right: 1rem;
 }
 
@@ -85,8 +85,9 @@
 }
 
 #contact {
-  height: 92vh;
+  height: 90vh;
 }
+
 
 @media (max-width: 720px) {
   #about {
@@ -200,7 +201,7 @@ nav .button-collapse {
 }
 
 .text-size {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .container-box {
@@ -212,14 +213,14 @@ nav .button-collapse {
   font-size: 1.5rem;
 }
 #contact div.contact {
-  padding-top: 7rem;
+  padding-top: 12rem;
 }
 
 footer {
-  height: 8vh;
+  height: 10vh;
   background-color: #f7484d;
   font-size: 1.2rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 @media (max-width: 900px) {
@@ -229,6 +230,7 @@ footer {
   }
   #contact div.contact {
     padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   #contact {
     height: auto;
@@ -257,19 +259,18 @@ footer {
   font-weight: 600;
 }
 
-ul li {
-  font-size: 1.4rem;
+#skills ul li {
+  font-size: 1.6rem;
+  line-height: 4rem;
 }
 
 .badges {
-  padding-top: 2rem;
+  padding-top: 2.5rem;
   padding-bottom: 1.2rem;
-  /* color: #fff; */
-  filter: grayscale(50%); 
 }
 
 .badges-box p {
-  font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 a.icon-hamburguer {

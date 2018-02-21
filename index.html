@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Alejandra Cabrera | Developer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis|Roboto|Kaushan+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
   <link rel="stylesheet" href="css/main.css">
@@ -19,11 +19,10 @@
     <nav class="transparent">
       <div class="nav-wrapper">
         <a href="#hero" class="brand-logo title-logo">ALEJANDRA</a>
-        <span data-activates="mobile-demo" class="button-collapse hide-on-large-only">
-          <a href="#" class="icon-hamburguer title-logo"><i class="material-icons">dehaze</i>
-</a>
-        </span>
-        <ul class="right hide-on-med-and-down">
+        <a href="#" class="icon-hamburguer button-collapse hide-on-large-only" data-activates="mobile-demo">
+          <i class="material-icons">dehaze</i>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
             <a href="#about" class="titles">Acerca de mí</a>
           </li>
@@ -39,16 +38,16 @@
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li>
-            <a href="#about" class="titles letter-red">Acerca de mi</a>
+            <a href="#about" class="titles">Acerca de mí</a>
           </li>
           <li>
-            <a href="#skills" class="titles letter-red">Skills</a>
+            <a href="#skills" class="titles">Skills</a>
           </li>
           <li>
-            <a href="#portfolio" class="titles letter-red">Portafolio</a>
+            <a href="#portfolio" class="titles">Portafolio</a>
           </li>
           <li>
-            <a href="#contact" class="titles letter-red">Contacto</a>
+            <a href="#contact" class="titles">Contacto</a>
           </li>
         </ul>
       </div>
@@ -84,8 +83,8 @@
         <div class="col m4 s12 aboutme-box center-align text-size">
           <p class="bold-par">
             Soy
-            <span class="letter-red">Front-end developer</span> de Laboratoria, desde que conocí el código sencillamente no pude dejarlo
-            y hoy en día quiero aprender cada vez más.
+            <span class="letter-red">Front-end developer</span> de Laboratoria, desde que conocí el código sencillamente no pude dejarlo y hoy en
+            día quiero aprender cada vez más.
           </p>
         </div>
         <div class="col m4 s12 about-me-box center-align text-size">
@@ -103,133 +102,44 @@
       <div class="col m12 s12">
         <h3 class="white-text center-align padd-title">Skills</h3>
       </div>
+      <div class="col m4 s12 center-align">
+        <h4 class="letter-red">Desarrollo Web</h4>
+        <ul class="white-text">
+          <li>HTML5</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>CSS3</li>
+        </ul>
+      </div>
+      <div class="col m4 s12 center-align">
+        <h4 class="letter-red">Frameworks</h4>
+        <ul class="white-text">
+          <li>Boostrap4</li>
+          <li>Materialize</li>
+        </ul>
+      </div>
+      <div class="col m4 s12 center-align">
+        <h4 class="letter-red">Herramientas</h4>
+        <ul class="white-text">
+          <li>Ajax</li>
+          <li>API</li>
+          <li>Git</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
       <div class="container">
-        <div class="col m6 s12">
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-html5 fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">html5</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 90%"></div>
-              </div>
-            </div>
+        <div class="row center-align">
+          <div class="col m6 s12 badges-box white-text">
+            <img src="assets/images/5_mejores.png" alt="" class="badges">
+            <p>BADGET: Una de las 5 mejores</p>
           </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-css3 fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">css3</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 90%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-js-square fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">Javascript</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 80%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-css3 fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">Jquery</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 75%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-node-js fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">Node.js</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 70%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-git fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">Git</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 70%"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col m6 s12">
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-html5 fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">Ajax</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 60%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-css3 fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">Bootstrap</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 95%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-css3 fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">Materialize</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 95%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-css3 fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text">Firebase</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 65%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row pad">
-            <div class="col m3 s3">
-              <i class="fab fa-css3 fa-4x letter-red"></i>
-            </div>
-            <div class="col m9 s9">
-              <span class="uppercase white-text ">Babel</span>
-              <div class="progress ">
-                <div class="determinate" style="width: 70%"></div>
-              </div>
-            </div>
+          <div class="col m6 s12 badges-box white-text">
+            <img src="assets/images/más_productva.png" alt="" class="badges">
+            <p>BADGET: La más proactiva</p>
           </div>
         </div>
       </div>
+
     </div>
     <div class="col m6 s12">
 
@@ -240,48 +150,46 @@
         <div class="container-box">
           <div class="row">
             <div class="col m4 s12">
-              <p class="center-align project-size">LabCar</p>
+              <p class="center-align project-size">Project-SWAPI</p>
               <div class="project-about text-size">
-                <p class="center-align">Recreé la página web
-                  <span class="letter-red">LabCar</span> con vista tanto desktop como mobile.
-                  <br> Integré la
-                  <span class="letter-red">API de google maps</span> en conjunto con la
-                  <span class="letter-red">API geolocation</span> de HTML5.
+                <p class="center-align"> <span class="letter-red">Project-SWAPI</span>  es una página web en la cual se hace uso de la <span class="letter-red">API SWAPI</span> para obtener los datos de los personajes de Star Wars
+                los cuales se muestran mediante un modal al hacer clíck a la imagen del personaje.
                 </p>
-
               </div>
               <div class="center-align">
-                <a class="waves-effect center-align waves-light btn project-btn">Código</a>
-                <a class="waves-effect center-align waves-light btn project-btn">Demo</a>
+                <a class="waves-effect center-align waves-light btn project-btn" href="https://alejandracp.github.io/project-SWAPI/public/" target="_blank">Demo</a>
               </div>
             </div>
             <div class="col m6 offset-m1 s12 img-box">
-              <img src="assets/images/labcar.png" class="responsive-img" alt="">
+              <img src="assets/images/swapi.png" class="responsive-img" alt="">
             </div>
           </div>
           <div class="row">
             <div class="col m4 s12 center-align">
-              <p class="center-align project-size letter-red">Lyft</p>
+              <p class="center-align project-size ">Project-Bitácora</p>
               <div class="project-about text-size">
-                <p>Aplicación dónde desarrollé la <span class="letter-red">validación de ingreso de datos</span>  en el proceso de registro.
-                  <br> Utilizé <span class="letter-red">Jquery</span>  - librería de Javascript
+                <p><span class="letter-red">Project-Bitácora</span>  es una página web en la cual se puede publicar texto, audio, video, imagen y la fecha de un evento con la
+                ubicación actual.
                 </p>
 
               </div>
               <div class="center-align">
-                <a class="waves-effect center-align waves-light btn project-btn">Código</a>
-                <a class="waves-effect center-align waves-light btn project-btn">Demo</a>
+                <a class="waves-effect center-align waves-light btn project-btn" href="https://alejandracp.github.io/project-bitacora/" target="_blank">Demo</a>
               </div>
             </div>
             <div class="col m6 offset-m1 s12 img-box">
-              <img src="assets/images/lyft.jpg" class="responsive-img" alt="">
+              <img src="assets/images/bitacora.png" class="responsive-img" alt="">
             </div>
           </div>
           <div class="row">
             <div class="col m4 s12 center-align">
               <p class="center-align project-size">Data-dashboard</p>
               <div class="project-about text-size">
-                <p>Contruí una <span class="letter-red">herramienta web de gestión de la información</span>  sobre Laboratoria. <br> Data-dashboard <span class="letter-red">analiza y muestra datos</span>  de las alumnas de las diferentes promociones como tambien de los profesores y jedis. 
+                <p>Contruí una
+                  <span class="letter-red">herramienta web de gestión de la información</span> sobre Laboratoria.
+                  <br> Data-dashboard
+                  <span class="letter-red">analiza y muestra datos</span> de las alumnas de las diferentes promociones como tambien de los profesores
+                  y jedis.
                 </p>
 
               </div>

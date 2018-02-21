@@ -122,6 +122,9 @@
     letter-spacing: 0.1em;
     font-weight: 800;
   }
+  .title-logo {
+    margin: auto;
+  }
 }
 
 #about,
@@ -139,7 +142,6 @@
 #skills,
 #contact {
   background-color: #292929;
-  /* padding-top: 2.4rem; */
 }
 
 #contact {
@@ -198,7 +200,7 @@ nav .button-collapse {
 }
 
 .text-size {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
 }
 
 .container-box {
@@ -253,4 +255,23 @@ footer {
 
 .bold-par {
   font-weight: 600;
+}
+
+ul li {
+  font-size: 1.4rem;
+}
+
+.badges {
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
+  /* color: #fff; */
+  filter: grayscale(50%); 
+}
+
+.badges-box p {
+  font-size: 1.3rem;
+}
+
+a.icon-hamburguer {
+  margin-left: 1rem;
 }

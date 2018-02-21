@@ -103,7 +103,7 @@
   .position2 {
     position: absolute;
     transform: translateY(-50%);
-    top: 37%;
+    top: 45%;
     margin-left: 10%;
   }
 
@@ -113,7 +113,7 @@
 
   .position3 {
     transform: translateY(-40%);
-    top: 47%;
+    top: 65%;
     margin-left: 10%;
     font-size: 2rem;
     font-weight: 800;

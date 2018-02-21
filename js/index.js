@@ -18,3 +18,11 @@ $(window).scroll(e => {
 
 let navBarColor = "#292929";
 $(".nav-wrapper").css("background-color", navBarColor);
+
+$("#about-slide").click(function(e) {
+  e.preventDefaul();
+  // $('html,body').animate({
+  //     scrollTop: $("#about").offset().top},
+  //     'slow');
+  console.log('sf');
+});

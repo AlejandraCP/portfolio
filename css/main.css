@@ -1,290 +1,301 @@
-.titles {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
-  font-weight: 300;
-  margin-right: 1rem;
-}
-
-.title-logo {
-  margin: auto 3rem;
-  font-weight: 200;
-}
+/* reusable */
 
 .letter-red {
-  color: #f7484d;
+    color: #f7484d;
 }
 
 .letter-red-light {
-  color: #f08286;
-  font-weight: 600;
-}
-.first-box {
-  background: #000000c5;
+    color: #f08286;
+    font-weight: 600;
 }
 
-.position1 {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 20%;
-  margin-left: 10%;
-  font-size: 2.5rem;
+.font-Dosis {
+    font-family: "Dosis", sans-serif;
 }
 
-.position2 {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 35%;
-  margin-left: 10%;
+.paragraph-size {
+    font-size: 1.3rem;
 }
 
-.position2 span:first-child {
-  font-size: 3rem;
+.uppercase {
+    text-transform: uppercase;
 }
 
-.name {
-  font-size: 5rem;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  color: #faf6f6ea;
-  letter-spacing: 0.1em;
-  font-weight: 800;
-  text-shadow: 1px -1px 0 #9490908e, -1px 2px 1px #47464673,
-    -2px 4px 1px #1616164d, -3px 6px 1px #0f0f0f28;
-  padding-left: 1rem;
-  display: inline-block;
+/* navbar */
+
+nav .button-collapse {
+    margin: 0;
 }
 
-.position3 {
-  position: absolute;
-  transform: translateY(-40%);
-  top: 50%;
-  margin-left: 10%;
-  font-size: 2rem;
-  font-weight: 800;
-  text-transform: uppercase;
+div.progress {
+    background-color: rgb(230, 136, 139);
+    height: 0.5rem;
+    margin-top: 0;
 }
 
-.photo {
-  margin-bottom: 1rem;
-}
-.container .row {
-  margin: 0;
+div.progress .determinate {
+    background-color: #f7484d;
 }
 
-.container {
-  max-width: 100%;
+a.icon-hamburguer {
+    margin-left: 1rem;
 }
 
-.full-width {
-  width: 100%;
+/* First part */
+
+.brand-logo {
+    margin: auto 1.5rem;
+    font-weight: 200;
 }
 
-#about,
+.title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-right: 1rem;
+}
+
+.transparence {
+    background-image: url("../assets/images/port1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Fjalla One', sans-serif;
+    color: #fff;
+}
+
 #first {
-  height: 100vh;
+    height: 100vh;
+    background: #000000c5;
 }
 
-#contact {
-  height: 90vh;
-}
-
-
-@media (max-width: 720px) {
-  #about {
-    height: auto;
-  }
-  .position1 {
+#first p:first-child {
+    position: absolute;
     transform: translateY(-50%);
     top: 20%;
     margin-left: 10%;
     font-size: 2.5rem;
-  }
+}
 
-  .position2 {
+#first p:nth-child(2) {
     position: absolute;
     transform: translateY(-50%);
-    top: 45%;
+    top: 35%;
     margin-left: 10%;
-  }
+}
 
-  .position2 span:first-child {
+#first p:nth-child(2) span:first-child {
     font-size: 3rem;
-  }
+}
 
-  .position3 {
+#first p:nth-child(2) span:nth-child(2) {
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #faf6f6ea;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+    text-shadow: 1px -1px 0 #9490908e, -1px 2px 1px #47464673, -2px 4px 1px #1616164d, -3px 6px 1px #0f0f0f28;
+    padding-left: 1rem;
+    display: inline-block;
+}
+
+#first p:nth-child(3) {
+    position: absolute;
     transform: translateY(-40%);
-    top: 65%;
+    top: 50%;
     margin-left: 10%;
     font-size: 2rem;
     font-weight: 800;
-  }
-  .name {
-    font-size: 3rem;
-    letter-spacing: 0.1em;
-    font-weight: 800;
-  }
-  .title-logo {
-    margin: auto;
-  }
+    text-transform: uppercase;
 }
 
-#about,
+/* About me part */
+
+#about {
+    margin-bottom: 3.5rem;
+}
+
+#about h3 {
+    margin: 3.5rem;
+}
+
+#about p {
+    font-weight: 600;
+}
+
+#about img {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* skills part */
+
+#skills h3 {
+    margin: 3.5rem;
+}
+
 #skills,
-#portfolio,
 #contact {
-  font-family: "Dosis", sans-serif;
-}
-
-#skills,
-#portfolio {
-  padding-bottom: 3.5rem;
-}
-
-#skills,
-#contact {
-  background-color: #292929;
-}
-
-#contact {
-  padding-top: 2.4rem;
-}
-
-.transparent {
-  background-color: transparent;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-div.progress {
-  background-color: rgb(230, 136, 139);
-  height: 0.5rem;
-  margin-top: 0;
-}
-
-div.progress .determinate {
-  background-color: #f7484d;
-}
-
-.row.pad {
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-}
-
-.project-size {
-  font-size: 2rem;
-}
-
-.project-btn {
-  border: 1px solid #f7484d;
-  background-color: #fff;
-  color: #f7484d;
-}
-
-.project-box {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-a.project-btn:hover {
-  background-color: #f7484d;
-  color: #fff;
-}
-
-div.img-box {
-  padding: 1rem 3rem !important;
-}
-
-nav .button-collapse {
-  margin: 0;
-}
-
-.project-about {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.text-size {
-  font-size: 1.3rem;
-}
-
-.container-box {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-#contact p {
-  font-size: 1.5rem;
-}
-#contact div.contact {
-  padding-top: 7rem;
-}
-
-footer {
-  height: 10vh;
-  background-color: #f7484d;
-  font-size: 1.2rem;
-  padding-top: 1rem;
-}
-
-@media (max-width: 900px) {
-  .container-box {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  #contact div.contact {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-  #contact {
-    height: auto;
-  }
-  footer div {
-    font-size: 1rem;
-  }
-  .project-box {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-}
-
-.transparence {
-  background-image: url("../assets/images/port1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: 'Fjalla One', sans-serif;
-  color: #fff;
-}
-
-.padd-title {
-  margin: 3.5rem;
-}
-
-.bold-par {
-  font-weight: 600;
+    background-color: #292929;
 }
 
 #skills ul li {
-  font-size: 1.6rem;
-  line-height: 2.5rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
 }
 
-.badges {
-  padding-top: .5rem;
+#skills {
+  padding-bottom: 2.5rem;
+}
+.badges img {
+    padding-top: .8rem;
 }
 
-.badges-box p {
+.badges p {
     font-size: 1.8rem;
-    /* margin: 0.5rem; */
 }
 
-a.icon-hamburguer {
-  margin-left: 1rem;
+/* portfolio part */
+
+#portfolio {
+    padding-bottom: 3.5rem;
 }
 
-.contac-size {
-  font-size: 1.6rem;
+#portfolio h3 {
+    margin: 3.5rem;
+}
+
+.project-box {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.project-title {
+    font-size: 2rem;
+}
+
+.project-box .col .paragraph-size {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.project-img {
+    padding: 1rem 3rem !important;
+}
+
+.project-btn {
+    border: 1px solid #f7484d;
+    background-color: #fff;
+    color: #f7484d;
+}
+
+a.project-btn:hover {
+    background-color: #f7484d;
+}
+
+a.project-btn:focus {
+    background-color: #f7484d;
+    color: #fff;
+}
+
+/* contact part */
+
+#contact {
+    padding-top: .5rem;
+    padding-bottom: 2.5rem;
+}
+
+#contact h3 {
+    margin: 3.5rem;
+    margin-bottom: 7rem;
+}
+
+#contact p {
+    font-size: 1.5rem;
+}
+
+#contact .container {
+  margin-top: 2.5rem;
+  padding-bottom: 6.5rem;
+}
+
+footer {
+    height: 10vh;
+    background-color: #f7484d;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.contact-size {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 900px) {
+    .container-box {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #contact div.contact {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    #contact {
+        height: auto;
+    }
+    footer div {
+        font-size: 1rem;
+    }
+    .project-box {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #skills h4 {
+        font-size: 1.8rem;
+    }
+    #skills ul li {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width: 720px) {
+    #first p:first-child {
+        transform: translateY(-50%);
+        top: 20%;
+        margin-left: 10%;
+        font-size: 2.5rem;
+    }
+    #first p:nth-child(2) {
+        position: absolute;
+        transform: translateY(-50%);
+        top: 45%;
+        margin-left: 10%;
+    }
+    #first p:nth-child(2) span:first-child {
+        font-size: 3rem;
+    }
+    #first p:nth-child(3) {
+        transform: translateY(-40%);
+        top: 65%;
+        margin-left: 10%;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    #first p:nth-child(2) span:nth-child(2) {
+        font-size: 3rem;
+        letter-spacing: 0.1em;
+        font-weight: 800;
+    }
+    .title-logo {
+        margin: auto;
+    }
+    #skills h4 {
+        font-size: 1.8rem;
+    }
+    #skills ul li {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
 }

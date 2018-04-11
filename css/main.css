@@ -201,6 +201,9 @@ a.project-btn:focus {
     color: #fff;
 }
 
+.responsive-img {
+    border: solid 1px rgb(202, 192, 192);
+}
 /* contact part */
 
 #contact {
